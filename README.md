@@ -1,3 +1,27 @@
-# SlapperRotation
+## SlapperRotation
 
-<a href="https://discord.gg/BH2Zkz2"><img src="https://discordapp.com/api/guilds/412491783486832640/embed.png" alt="Discord server"/></a>
+This plugin enables support for Slappers to rotate and look at you.
+
+
+# Features 
+
+- Ability to configure the distance view of the Slappers.
+
+
+# BugReport
+
+You found a bug or a plugin issue?
+
+- Contact support in the [Discord Server](https://discord.gg/jWFB56RqUN)
+
+- Create an [Issue](https://github.com/Vecnavium/SlapperRotation/issues/new)
+
+- Write your bug & the issue you are having with all informations including the error so I can track the issue
+
+- Submit the issue and be patient for a response for a solution to your problem
+
+# Suggestions
+
+Have a suggestion?
+
+Feel free to contact me in the [Support Discord Server](https://discord.gg/jWFB56RqUN) and suggest the suggestion you have in mind for this plugin!
