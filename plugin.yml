@@ -2,7 +2,6 @@ name: SlapperRotation
 main: SlapperRotation\Main
 version: 1.2.1
 api: [3.0.0]
-mcpe-protocol: [471]
 author: [Vecnavium, jojoe77777]
 description: Slappers look at players!
 depend: [Slapper]
