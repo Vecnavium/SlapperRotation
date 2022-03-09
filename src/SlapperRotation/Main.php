@@ -7,12 +7,12 @@ use pocketmine\event\player\PlayerMoveEvent;
 use pocketmine\math\Vector2;
 use pocketmine\network\mcpe\protocol\MoveActorAbsolutePacket;
 use pocketmine\network\mcpe\protocol\MovePlayerPacket;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase implements Listener {
 
-	public function onEnable() {
+	public function onEnable() void{
 		$this->saveDefaultConfig();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
@@ -46,7 +46,7 @@ class Main extends PluginBase implements Listener {
 			$yaw = (($angle * 180) / M_PI) - 90;
 			$ydiff = $player->y - $e->y;
 			$v = new Vector2($e->x, $e->z);
-			$dist = $v->distance($player->x, $player->z);
+			$dist = $v->distance()$player->x, $player->z);
 			$angle = atan2($dist, $ydiff);
 			$pitch = (($angle * 180) / M_PI) - 90;
 
